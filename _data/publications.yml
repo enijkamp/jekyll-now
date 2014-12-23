@@ -1,3 +1,6 @@
-- name: testname
-  slug: testslug
-  description: Blah blah.
+- name: A Graph-based Bayesian Approach to Structural Inference in GUIs.
+  authors: Erik Nijkamp, Klaus-Robert Müller, Sebastian Möller
+  conf: To be published
+- name: Large-scale matrix factorization with distributed stochastic gradient descent.
+  authors: Rainer Gemulla, Erik Nijkamp, Peter J. Haas, Yannis Sismanis
+  conf: ACM KDD 2011: 69-77
