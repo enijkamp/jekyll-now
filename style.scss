@@ -69,13 +69,20 @@ p {
   margin: 15px 0;
 }
 
-a {
+/*a {
   color: $blue;
   text-decoration: none;
   cursor: pointer;
   &:hover, &:active {
     color: $blue;
   }
+}*/
+
+a {
+color: #333;
+font-weight: 400;
+text-decoration: none;
+-webkit-tap-highlight-color: transparent;
 }
 
 ul, ol {
