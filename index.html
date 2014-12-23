@@ -8,7 +8,7 @@ resume: I am a blah. I like to spend most of the time blah.
 		<p>My name is blahi and I am a blah.
 		I like to spend most of the time blah.
 		</p>
-		<p>If you think I can help you in your projects, <a href="mailto:jmenichelli@gmail.com">just let me know</a>!</p>
+		<p>If you think I can help you in your projects, <a href="mailto:erik.nijkamp@gmail.com">just let me know</a>!</p>
 	</div>
 </section>
 
@@ -38,7 +38,7 @@ resume: I am a blah. I like to spend most of the time blah.
 		{% for r in site.data.publications %}
 			<div class="card-highlight">
 				<h5><a href="{{ r.url }}" target="_blank">{{ r.name }}</a></h5>
-				<p>{{ r.authors }}, {{ r.venue }}</p>
+				<span>{{ r.authors }} ({{ r.venue }})</span>
 			</div>
 		{% endfor %}
 	</div>
