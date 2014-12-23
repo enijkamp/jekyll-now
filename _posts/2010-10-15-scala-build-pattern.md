@@ -1,3 +1,8 @@
+---
+layout: post
+title: "The build pattern in Scala"
+---
+
 So, you are a Senior Developer with solid experience in java, c#, or c++? You know the famous <a href="http://en.wikipedia.org/wiki/Builder_pattern" target="_blank">GoF Builder pattern</a> by heart, applying it is a matter of seconds and there's nothing more to learn?
 
 In this case Rafael's article <a href="http://blog.rafaelferreira.net/2008/07/type-safe-builder-pattern-in-scala.html" target="_blank">"Type-safe Builder Pattern in Scala"</a> will probably shake your world.
