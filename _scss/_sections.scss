@@ -17,7 +17,7 @@
 }
 
 .card-highlight {
-    border-left: solid 3px @mainColor;
+    border-left: solid 3px $mainColor;
     padding: 0 0 0 20px;
     margin: 35px 0 0;
 }
@@ -40,7 +40,7 @@
 }
 
 section {
-    background: @mainBackgroundColor;
+    background: $mainBackgroundColor;
 
     a:hover {
         text-decoration: underline;
@@ -56,13 +56,13 @@ section.hello {
     h1, h2 {
 
         span {
-            border-bottom: solid 4px @helloColor;
+            border-bottom: solid 4px $helloColor;
         }
     }
 }
 
 section.hello-blog {
-    background: @blogColor;
+    background: $blogColor;
 }
 
 section.blog-main {
@@ -70,7 +70,7 @@ section.blog-main {
     h1, h2 {
 
         span {
-            border-bottom: solid 4px @blogColor;
+            border-bottom: solid 4px $blogColor;
         }
     }
 
@@ -94,13 +94,13 @@ section.main {
     h1, h2 {
 
         span {
-            border-bottom: solid 4px @thirdColor;
+            border-bottom: solid 4px $thirdColor;
         }
     }
 }
 
 section.about {
-    background: @thirdColor;
+    background: $thirdColor;
 
     h3 {
         margin: 0;
