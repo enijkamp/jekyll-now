@@ -1,3 +1,8 @@
+---
+layout: post
+title: "How to avoid try/catch blocks"
+---
+
 As I'm running low on time these days, but want to keep the steady flow of Scala buzz alive, here's another simple trick. Dealing with Java I/O you probably know the unavoidable burden of exception handling:
 
 ```java
