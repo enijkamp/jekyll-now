@@ -68,7 +68,7 @@ So, let's see what we can do about it in Scala! We introduce a function named "u
 
 {% highlight scala %}
 object IO {
-  def using[R, S <: data-blogger-escaped-close="" data-blogger-escaped-def="" data-blogger-escaped-f:="" data-blogger-escaped-s:="" data-blogger-escaped-s=""> R): R = {
+  def using[R, S <: R): R = {
     try {
       f(s)
     } finally {
