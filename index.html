@@ -31,3 +31,22 @@ resume: I am a twenty eight years old web developer from San Lorenzo, Argentina.
 	</div>
 </section>
 {% endif %}
+
+<section class="main">
+	<div class="container">
+		<h2><span>Publications</span></h2>
+		<p>I started working as a web developer many years ago, helping small bussiness to jump on the web. Later I got the chance to work in some cool important projects in <a href="http://www.globant.com" target="_blank">Globant</a> with great clients like Razorfish, Microsoft, StateFarm, the New York Stock Exchange and many more.</p> 
+		<p>Now I'm currently in Rosario, Argentina working with the OrderGroove team in <a href="http://www.velocitypartners.net/" target="_blank">Velocity Partners</a> coding with vanilla JavaScript and having fun.</p>
+	</div>
+	<div class="container">
+		<h2><span>Stuff on GitHub</span></h2>
+		<p>In my spare time I put on GitHub some solutions I've crafted myself for common problems on front end development. Here are some of them...</p>
+		{% for r in site.data.repositories %}
+			<div class="card-highlight">
+				<h3>{{ r.name }}</h3>
+				<p>{{ r.description}}</p>
+				<a href="https://github.com/jeremenichelli/{{ r.slug }}" class="cta-btn" target="_blank">Go to the repo</a>
+			</div>
+		{% endfor %}
+	</div>
+</section>
