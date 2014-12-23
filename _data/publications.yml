@@ -1,1 +1,8 @@
-
+- name: A Graph-based Bayesian Approach to Structural Inference in GUIs.
+  authors: Erik Nijkamp, Klaus-Robert Mueller, Sebastian Moeller
+  venue: To be published
+  url: http://google.com
+- name: Large-scale matrix factorization with distributed stochastic gradient descent.
+  authors: Rainer Gemulla, Erik Nijkamp, Peter J. Haas, Yannis Sismanis
+  venue: ACM KDD 2011: 69-77
+  url: http://google.com
