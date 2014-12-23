@@ -8,3 +8,13 @@
   venue: "ACM KDD 2011: 69-77"
   year: 2011
   url: "http://google.com"
+- name: "MapReduce and PACT - Comparing Data Parallel Programming Models."
+  authors: "A. Alexandrov, S. Ewen, M. Heimel, F. Hueske, O. Kao, V. Markl, E. Nijkamp, D. Warneke"
+  venue: "BTW 2011: 25-44"
+  year: 2011
+  url: "http://google.com"
+- name: "Massively Parallel Data Analysis with PACTs on Nephele."
+  authors: "A. Alexandrov, D. Battré, S. Ewen, M. Heimel, F. Hueske, O. Kao, V. Markl, Erik Nijkamp, D. Warneke"
+  venue: "PVLDB 3(2): 1625-1628"
+  year: 2010
+  url: "http://google.com"
