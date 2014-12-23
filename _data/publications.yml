@@ -18,7 +18,7 @@
   venue: "PVLDB 3(2): 1625-1628"
   year: 2010
   url: "http://google.com"
-  - name: "BinRank: Scaling Dynamic Authority-Based Search Using Materialized Subgraphs."
+- name: "BinRank: Scaling Dynamic Authority-Based Search Using Materialized Subgraphs."
   authors: "Heasoo Hwang, Andrey Balmin, Berthold Reinwald, Erik Nijkamp"
   venue: "IEEE Trans. Knowl. Data Eng. 22(8): 1176-1190"
   year: 2010
