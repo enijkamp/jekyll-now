@@ -8,11 +8,6 @@
   venue: "ACM KDD 2011: 69-77"
   year: 2011
   url: "http://google.com"
-- name: "Large-scale matrix factorization with distributed stochastic gradient descent."
-  authors: "Rainer Gemulla, Erik Nijkamp, Peter J. Haas, Yannis Sismanis"
-  venue: "ACM KDD 2011: 69-77"
-  year: 2011
-  url: "http://google.com"
 - name: "MapReduce and PACT - Comparing Data Parallel Programming Models."
   authors: "A. Alexandrov, S. Ewen, M. Heimel, F. Hueske, O. Kao, V. Markl, E. Nijkamp, D. Warneke"
   venue: "BTW 2011: 25-44"
