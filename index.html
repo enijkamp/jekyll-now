@@ -37,11 +37,7 @@ resume: I am a blah. I like to spend most of the time blah.
 		<h2><span>Publications</span></h2>
 		{% for r in site.data.publications %}
 			<div class="card-highlight">
-			{% if r.url %}
 				<h5><a href="{{ r.url }}" target="_blank">{{ r.name }}</a></h5>
-			{% else %}
-				<h5>{{ r.name }}</h5>	
-			{% endif %}
 				<p>{{ r.authors }} ({{ r.venue }})</p>
 			</div>
 		{% endfor %}
