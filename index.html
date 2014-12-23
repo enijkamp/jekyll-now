@@ -12,6 +12,26 @@ resume: I am a twenty eight years old web developer from San Lorenzo, Argentina.
 	</div>
 </section>
 
+{% if site.posts.size > 0 %}
+<section class="hello-blog">
+	<div class="container">
+		<h2>Blog</h2>
+		<p>I also write about some thoughts I have, most of them about coding.</p>
+		<div class="card-highlight">
+			<div class="card-highlight-date">
+				<span class="last-post">Last Post</span>
+				<span>{{ site.posts[0].date | date : '%d %b %Y' }}</span>
+			</div>
+			<h3>{{ site.posts[0].title }}</h3>
+			{% if site.posts[0].resume.size > 0 %}
+				<p class="resume">{{ site.posts[0].resume }}</p>
+			{% endif %}
+			<a class="cta-btn" href="{{ site.posts[0].url }}">Go to the post</a>
+		</div>
+	</div>
+</section>
+{% endif %}
+
 <div class="posts">
   {% for post in site.posts %}
     <article class="post">    
