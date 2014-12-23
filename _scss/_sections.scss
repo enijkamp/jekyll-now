@@ -38,3 +38,71 @@
         margin: 10px 0 15px;
     }
 }
+
+section {
+    background: @mainBackgroundColor;
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    .container {
+        padding: 50px 30px;
+    }
+}
+
+section.hello {
+
+    h1, h2 {
+
+        span {
+            border-bottom: solid 4px @helloColor;
+        }
+    }
+}
+
+section.hello-blog {
+    background: @blogColor;
+}
+
+section.blog-main {
+
+    h1, h2 {
+
+        span {
+            border-bottom: solid 4px @blogColor;
+        }
+    }
+
+    ul {
+        list-style: disc;
+        list-style-position: inside;
+        margin: 0 0 20px;
+
+        li {
+            line-height: 1.5em;
+        }
+    }
+}
+
+section.main {
+
+    .container + .container {
+        padding-top: 0;
+    }
+
+    h1, h2 {
+
+        span {
+            border-bottom: solid 4px @thirdColor;
+        }
+    }
+}
+
+section.about {
+    background: @thirdColor;
+
+    h3 {
+        margin: 0;
+    }
+}
