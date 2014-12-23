@@ -31,3 +31,21 @@ resume: I am a blah. I like to spend most of the time blah.
 	</div>
 </section>
 {% endif %}
+
+<section class="main">
+	<div class="container">
+		<h2><span>Publications</span></h2>
+		<p>blah.</p> 
+	</div>
+	<div class="container">
+		<h2><span>Papers</span></h2>
+		<p>Blah</p>
+		{% for r in site.data.publications %}
+			<div class="card-highlight">
+				<h3>{{ r.name }}</h3>
+				<p>{{ r.authors }}</p>
+				<a href="https://github.com/jeremenichelli/{{ r.url }}" class="cta-btn" target="_blank">Go to the repo</a>
+			</div>
+		{% endfor %}
+	</div>
+</section>
