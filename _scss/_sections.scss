@@ -2,15 +2,16 @@
     background-color: $mainColor;
     -webkit-border-radius: 3px;
     border-radius: 3px;
-    color: #FFFFFF;
+    color: #fff;
     display: inline-block;
     padding: 10px;
     text-decoration: none;
     text-transform: uppercase;
+    font-weight: 400;
 }
 
 .cta-btn:hover {
     text-decoration: none;
-    color: #333;
+    color: #fff;
     font-weight: 400;
 }
