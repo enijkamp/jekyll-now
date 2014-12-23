@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Get a taste of Stanford: Online lectures 2012"
+resume: "Here’s the latest from Stanford. Anyone who has listened to the initial three courses (Database System, Machine Learning and Artificial Intelligence) surely has enjoyed their quality and will enlist again. They are back with an incredible list of free interactive video lectures on machine-learning."
 ---
 
 These days I'm having too many irons in the fire. To give you some hints, there's more coming which sheds lights on turning non-negative matrix factorization into an embarrassingly parallel problem (plus avoiding the painful hadoop overhead [1]) and something new which hopefully combines machine learning methods with agile development methodologies to solve a well-known ancient problem in software engineering.
