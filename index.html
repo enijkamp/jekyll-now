@@ -35,12 +35,29 @@ resume: I am a blah. I like to spend most of the time blah.
 <section class="main">
 	<div class="container">
 		<h2><span>Publications</span></h2>
-		<p>I started working as a web developer many years ago, helping small bussiness to jump on the web. Later I got the chance to work in some cool important projects in <a href="http://www.globant.com" target="_blank">Globant</a> with great clients like Razorfish, Microsoft, StateFarm, the New York Stock Exchange and many more.</p> 
-		<p>Now I'm currently in Rosario, Argentina working with the OrderGroove team in <a href="http://www.velocitypartners.net/" target="_blank">Velocity Partners</a> coding with vanilla JavaScript and having fun.</p>
+		<p>blah.</p> 
+	</div>
+	<div class="container">
+		<h2><span>Papers</span></h2>
+		<p>Blah...</p>
+		{% for r in site.data.publications %}
+			<div class="card-highlight">
+				<h3>{{ r.name }}</h3>
+				<p>{{ r.description}}</p>
+				<a href="https://github.com/jeremenichelli/{{ r.slug }}" class="cta-btn" target="_blank">Go to the repo</a>
+			</div>
+		{% endfor %}
+	</div>
+</section>
+
+<section class="main">
+	<div class="container">
+		<h2><span>Projects</span></h2>
+		<p>blah.</p> 
 	</div>
 	<div class="container">
 		<h2><span>Stuff on GitHub</span></h2>
-		<p>In my spare time I put on GitHub some solutions I've crafted myself for common problems on front end development. Here are some of them...</p>
+		<p>Blah...</p>
 		{% for r in site.data.publications %}
 			<div class="card-highlight">
 				<h3>{{ r.name }}</h3>
