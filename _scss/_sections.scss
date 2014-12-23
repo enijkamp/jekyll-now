@@ -15,3 +15,26 @@
     color: #fff;
     font-weight: 400;
 }
+
+.card-highlight {
+    border-left: solid 3px @mainColor;
+    padding: 0 0 0 20px;
+    margin: 35px 0 0;
+}
+
+.card-highlight-date {
+    display: block;
+    font-size: .875em; /* 14px */
+    font-weight: 700;
+    margin: 0 0 -10px;
+    text-transform: uppercase;
+
+    .last-post {
+        color: #666666;
+    }
+
+    + h3 {
+        line-height: 1.07142857em; /* 30px */
+        margin: 10px 0 15px;
+    }
+}
