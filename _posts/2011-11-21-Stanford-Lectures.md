@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Get a taste of Stanford: Online lectures 2012
+title: "Get a taste of Stanford: Online lectures 2012"
 ---
 
 These days I'm having too many irons in the fire. To give you some hints, there's more coming which sheds lights on turning non-negative matrix factorization into an embarrassingly parallel problem (plus avoiding the painful hadoop overhead [1]) and something new which hopefully combines machine learning methods with agile development methodologies to solve a well-known ancient problem in software engineering.
