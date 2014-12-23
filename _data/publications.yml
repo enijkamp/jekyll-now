@@ -1,40 +1,40 @@
-- name: A Graph-based Bayesian Approach to Structural Inference in GUIs.
-  authors: Erik Nijkamp, Klaus-Robert Müller, Sebastian Möller
+- name: "A Graph-based Bayesian Approach to Structural Inference in GUIs."
+  authors: "Erik Nijkamp, Klaus-Robert Müller, Sebastian Möller"
   venue: To be published
   year: 2012
   url: "http://google.com"
-- name: Large-scale matrix factorization with distributed stochastic gradient descent.
-  authors: Rainer Gemulla, Erik Nijkamp, Peter J. Haas, Yannis Sismanis
+- name: "Large-scale matrix factorization with distributed stochastic gradient descent."
+  authors:" Rainer Gemulla, Erik Nijkamp, Peter J. Haas, Yannis Sismanis"
   venue: "ACM KDD 2011: 69-77"
   year: 2011
   url: "http://google.com"
-- name: MapReduce and PACT - Comparing Data Parallel Programming Models.
-  authors: A. Alexandrov, S. Ewen, M. Heimel, F. Hueske, O. Kao, V. Markl, E. Nijkamp, D. Warneke
+- name: "MapReduce and PACT - Comparing Data Parallel Programming Models."
+  authors: "A. Alexandrov, S. Ewen, M. Heimel, F. Hueske, O. Kao, V. Markl, E. Nijkamp, D. Warneke"
   venue: "BTW 2011: 25-44"
   year: 2011
   url: "http://google.com"
-- name: Massively Parallel Data Analysis with PACTs on Nephele.
-  authors: A. Alexandrov, D. Battré, S. Ewen, M. Heimel, F. Hueske, O. Kao, V. Markl, Erik Nijkamp, D. Warneke
+- name: "Massively Parallel Data Analysis with PACTs on Nephele."
+  authors: "A. Alexandrov, D. Battré, S. Ewen, M. Heimel, F. Hueske, O. Kao, V. Markl, Erik Nijkamp, D. Warneke"
   venue: "PVLDB 3(2): 1625-1628"
   year: 2010
   url: "http://google.com"
-- name: BinRank: Scaling Dynamic Authority-Based Search Using Materialized Subgraphs.
-  authors: Heasoo Hwang, Andrey Balmin, Berthold Reinwald, Erik Nijkamp
+- name: "BinRank: Scaling Dynamic Authority-Based Search Using Materialized Subgraphs."
+  authors: "Heasoo Hwang, Andrey Balmin, Berthold Reinwald, Erik Nijkamp"
   venue: "IEEE Trans. Knowl. Data Eng. 22(8): 1176-1190"
   year: 2010
   url: "http://google.com"
-- name: Value Demonstration of Embedded Analytics for Front Office Applications.
-  authors: Erik Nijkamp, Martin Oberhofer, Albert Maier
+- name: "Value Demonstration of Embedded Analytics for Front Office Applications."
+  authors: "Erik Nijkamp, Martin Oberhofer, Albert Maier"
   venue: "BTW 2009: 624-627"
   year: 2009
   url: "http://google.com"
-- name: BinRank: Scaling Dynamic Authority-Based Search Using Materialized SubGraphs.
-  authors: Heasoo Hwang, Andrey Balmin, Berthold Reinwald, Erik Nijkamp
+- name: "BinRank: Scaling Dynamic Authority-Based Search Using Materialized SubGraphs."
+  authors: "Heasoo Hwang, Andrey Balmin, Berthold Reinwald, Erik Nijkamp"
   venue: "ICDE 2009: 66-77"
   year: 2009
   url: "http://google.com"
-- name: DBPubs: Multidimensional exploration of database publications.
-  authors: Akanksha Baid, Andrey Balmin, Heasoo Hwang, Erik Nijkamp, Jun Rao, Berthold Reinwald, Alkis Simitsis, Yannis Sismanis, Frank van Ham
+- name: "DBPubs: Multidimensional exploration of database publications."
+  authors: "Akanksha Baid, Andrey Balmin, Heasoo Hwang, Erik Nijkamp, Jun Rao, Berthold Reinwald, Alkis Simitsis, Yannis Sismanis, Frank van Ham"
   venue: "PVLDB 2008 1 (2): 1456-1459"
   year: 2008
   url: "http://google.com"
